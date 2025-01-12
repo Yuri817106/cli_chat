@@ -1,6 +1,3 @@
-from openai import OpenAI
-import argparse
-
 def chat(client, model):
     print("已進入聊天模式，輸入 'exit' 離開。")
     conversation = [
